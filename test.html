@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Party</title>
+    <style>
+        html {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(best1.png) center/cover no-repeat;
+            color: #ffff;
+            display: flex;
+            flex-direction: column;
+            background-size: cover;
+            height: 100%;
+        }
+
+        body {
+
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d9b597;
+            padding: 1em;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Pacifico', cursive; /* Changed font family to Pacifico */
+            font-size: 36px; /* Adjusted font size */
+            font-weight: bold; /* Added font weight */
+            color: #fff; /* Changed title color */
+        }
+
+        .profile-info {
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            text-align: right;
+            background-color: #d9b597;
+            padding: 0.5em;
+        }
+
+        nav a,
+        .buy-now button {
+            text-decoration: none;
+            color: #ffff;
+            padding: 0 15px;
+            text-transform: uppercase;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        nav a:hover,
+        .buy-now button:hover {
+            transform: scale(1.1);
+        }
+
+        section {
+            margin: 300px;
+        }
+
+        .introduction {
+            text-align: center;
+            padding: 20px;
+            background-color: none;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #b1682c(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .buy-now {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buy-now button {
+            background-color: transparent;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-now button:hover {
+            background-color: #d9b597;
+        }
+
+        footer {
+            background-color:#836953;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: auto;
+        }
+
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="profile-info">
+            <img src="tea.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Tea Party</h1>
+        </div>
+        <nav>
+            <a href="https://jmslyd.github.io/html.pit/">HOME</a>
+            <a href="https://jmslyd.github.io/about/">ABOUT</a>
+            <a href="https://jmslyd.github.io/contact/">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="introduction">
+        <h2>Indulge in the Finest Handcrafted Milk Teas</h2>
+        <p>Steep into the world of premium tea at Tea Party Milk Tea! Come and enjoy the goodness in every cup!</p>
+    </section>
+
+    <div class="buy-now">
+        <a href="https://jmslyd.github.io/menu/"><button>Buy Now</button></a>
+    </div>
+
+    <footer>
+        <p>© 2024 MilkTea Heaven. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
